@@ -4,3 +4,6 @@ experimental/
 __pycache__/
 *.pyc
 todo.txt
+
+
+05-autogen-azure-ai-agents.ipynb

@@ -91,9 +91,6 @@ The notebooks are designed to be run in order:
    - Demonstrates the agent's ability to call external functions
    - Shows how to handle tool execution flow
 
-5. **05-autogen-azure-ai-agents.ipynb**: Extends the agent capabilities with AutoGen
-   - Advanced agent orchestration
-
 ## Dependencies
 
 This project uses the following key libraries:

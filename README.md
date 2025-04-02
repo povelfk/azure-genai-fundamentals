@@ -101,7 +101,6 @@ This project uses the following key libraries:
 - Azure AI Search
 - Azure Monitor OpenTelemetry
 - Tavily Python SDK
-- Other supporting libraries for data processing and visualization
 
 ## References
 

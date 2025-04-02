@@ -1,3 +1,5 @@
 azure-ai-agents/
 experimental/
 .env
+__pycache__/
+*.pyc

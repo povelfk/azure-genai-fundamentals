@@ -1,4 +1,4 @@
-# Azure AI Foundry Learning Path
+# Introduction to Generative AI on Azure through sample notebooks
 
 This repository contains a learning path for working with Azure AI Foundry services, focusing on Retrieval-Augmented Generation (RAG), Azure AI Agents, and other advanced AI capabilities.
 

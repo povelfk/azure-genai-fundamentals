@@ -3,3 +3,4 @@ experimental/
 .env
 __pycache__/
 *.pyc
+todo.txt

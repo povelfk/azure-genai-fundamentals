@@ -112,9 +112,3 @@ This project uses the following key libraries:
 - [Azure AI Agents Documentation](https://learn.microsoft.com/azure/ai-services/agents)
 - [Azure AI Search Documentation](https://learn.microsoft.com/azure/search/)
 - [Azure OpenAI Service Documentation](https://learn.microsoft.com/azure/ai-services/openai/)
-
-## TODO
-- In 01-create-index
-    - Consolidate format_documents and convert_document
-- Add Managed Identity to Notebooks
-- Add Managed Identity to Foundry Connections

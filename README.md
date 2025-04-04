@@ -52,7 +52,6 @@ The learning path demonstrates building AI solutions using Azure AI Foundry serv
    chatModel=gpt-4o
    embeddingModel=text-embedding-ada-002
    AZURE_OPENAI_API_VERSION=2025-01-01-preview
-   TAVILY_API_KEY=<your-tavily-api-key>
 
    # Azure AI Search
    SEARCH_INDEX_NAME=test-index
@@ -80,27 +79,36 @@ The notebooks are designed to be run in order:
    - Uses the search index to retrieve relevant information
    - Applies an intent-based search approach
    - Shows how to implement a complete RAG pattern with OpenAI
+   - Implements telemetry for monitoring performance
 
 3. **03-azure-ai-agents-knowledge-tools.ipynb**: Shows integration with knowledge tools
    - Creates an agent with Bing knowledge grounding
    - Demonstrates managing agent threads and messages
    - Shows how to use knowledge tools for grounded responses
+   - Illustrates the difference between stateless and stateful APIs
 
 4. **04-azure-ai-agents-action-tools.ipynb**: Explores function-calling with agents
-   - Implements custom function tools (web search, weather info)
+   - Implements custom function tools (weather info, network status)
    - Demonstrates the agent's ability to call external functions
-   - Shows how to handle tool execution flow
+   - Shows how to handle tool execution flow and process responses
+   - Provides best practices for action tool implementation
+
+5. **05-evaluate-in-ai-foundry.ipynb**: Covers evaluation of AI model outputs
+   - Sets up evaluation capabilities in Azure AI Foundry
+   - Demonstrates groundedness evaluation of AI-generated content
+   - Shows how to assess if AI responses are factually supported by evidence
+   - Explains how to upload and analyze evaluation results in Azure AI Foundry
 
 ## Dependencies
 
 This project uses the following key libraries:
 - Azure AI Projects SDK
 - Azure AI Inference SDK
-- LangChain and LangChain Components
+- Azure AI Evaluation SDK
+- LangChain
 - Azure AI Document Intelligence
 - Azure AI Search
 - Azure Monitor OpenTelemetry
-- Tavily Python SDK
 
 ## References
 

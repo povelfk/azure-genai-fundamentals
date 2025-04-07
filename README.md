@@ -105,10 +105,10 @@ This project uses the following key libraries:
 - Azure AI Projects SDK
 - Azure AI Inference SDK
 - Azure AI Evaluation SDK
-- LangChain
 - Azure AI Document Intelligence
 - Azure AI Search
 - Azure Monitor OpenTelemetry
+- LangChain
 
 ## References
 
